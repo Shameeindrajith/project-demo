@@ -1,0 +1,20 @@
+<p>country-list works!</p>
+
+<div class="card my-5">
+    <div class="card-body">
+      <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Id</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let country of countries">
+            <td>{{ country.name }}</td>
+            <td>{{ country.id }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
